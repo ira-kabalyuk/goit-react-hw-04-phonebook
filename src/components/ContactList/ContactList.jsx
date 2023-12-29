@@ -16,7 +16,7 @@ const ContactList = ({ contacts, onDeleteContact }) => {
           ))}
         </ul>
       ) : (
-        <p>contact not found</p>
+        <p className={styles.message}>contact not found &#129335;</p>
       )}
     </div>
   );
